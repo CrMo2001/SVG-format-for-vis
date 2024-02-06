@@ -1,0 +1,268 @@
+<?xml version="1.0" standalone="no"?>
+<svg x="0" y="0" width="450" height="400" viewBox="0 0 450.000000 400.000000" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      .title {
+        font-family: Segoe UI;
+        font-size: 20px;
+        fill: rgb(0, 0, 0);
+      }
+
+      .legend-label {
+        font-family: Segoe UI;
+        font-size: 10px;
+        fill: rgb(0, 0, 0);
+      }
+
+      .legend-symbol {
+        stroke: none;
+        stroke-opacity: 1;
+        stroke-width: 1;
+        opacity: 1
+      }
+
+      .android {
+        fill: rgb(127, 201, 127);
+      }
+
+      .ios {
+        fill: rgb(190, 174, 212);
+      }
+
+      .other {
+        fill: rgb(253, 192, 134);
+      }
+
+      .cell {
+        stroke: none;
+        stroke-opacity: 1;
+        stroke-width: 1;
+        opacity: 1;
+      }
+    </style>
+    <encoding mark=".cell" channel="fill" field="OS" />
+  </defs>
+  <g transform="translate(225.000000,200.000000)">
+    <text class="title" x="-137.7587890625" y="-162.36458940011647">Mobile OS Market Share</text>
+    <g transform="translate(0,0)">
+      <rect class="cell android" x="-205" y="150.2999999999297" width="31.50000000002848" height="29.700000000070304"
+        rx="0" ry="0">
+      </rect>
+      <rect class="cell android" x="-169.6111111111111" y="150.2999999999297" width="31.50000000002848"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-134.22222222222223" y="150.2999999999297" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-98.83333333333337" y="150.2999999999297" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-63.44444444444446" y="150.2999999999297" width="31.500000000028503"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-28.055555555555557" y="150.2999999999297" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="7.3333333333333" y="150.2999999999297" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="42.7222222222222" y="150.2999999999297" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="78.11111111111111" y="150.2999999999297" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="113.50000000000001" y="150.2999999999297" width="31.500000000028493"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-205" y="116.93333333326302" width="31.50000000002848" height="29.700000000070304"
+        rx="0" ry="0"></rect>
+      <rect class="cell android" x="-169.6111111111111" y="116.93333333326302" width="31.50000000002848"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-134.22222222222223" y="116.93333333326302" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-98.83333333333337" y="116.93333333326302" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-63.44444444444446" y="116.93333333326302" width="31.500000000028503"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-28.055555555555557" y="116.93333333326302" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="7.3333333333333" y="116.93333333326302" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="42.7222222222222" y="116.93333333326302" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="78.11111111111111" y="116.93333333326302" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="113.50000000000001" y="116.93333333326302" width="31.500000000028493"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-205" y="83.56666666659636" width="31.50000000002848" height="29.700000000070304"
+        rx="0" ry="0"></rect>
+      <rect class="cell android" x="-169.6111111111111" y="83.56666666659636" width="31.50000000002848"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-134.22222222222223" y="83.56666666659636" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-98.83333333333337" y="83.56666666659636" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-63.44444444444446" y="83.56666666659636" width="31.500000000028503"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-28.055555555555557" y="83.56666666659636" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="7.3333333333333" y="83.56666666659636" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="42.7222222222222" y="83.56666666659636" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="78.11111111111111" y="83.56666666659636" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="113.50000000000001" y="83.56666666659636" width="31.500000000028493"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-205" y="50.19999999992973" width="31.50000000002848" height="29.700000000070304"
+        rx="0" ry="0"></rect>
+      <rect class="cell android" x="-169.6111111111111" y="50.19999999992973" width="31.50000000002848"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-134.22222222222223" y="50.19999999992973" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-98.83333333333337" y="50.19999999992973" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-63.44444444444446" y="50.19999999992973" width="31.500000000028503"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-28.055555555555557" y="50.19999999992973" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="7.3333333333333" y="50.19999999992973" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="42.7222222222222" y="50.19999999992973" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="78.11111111111111" y="50.19999999992973" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="113.50000000000001" y="50.19999999992973" width="31.500000000028493"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-205" y="16.83333333326305" width="31.50000000002848" height="29.700000000070304"
+        rx="0" ry="0"></rect>
+      <rect class="cell android" x="-169.6111111111111" y="16.83333333326305" width="31.50000000002848"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-134.22222222222223" y="16.83333333326305" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-98.83333333333337" y="16.83333333326305" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-63.44444444444446" y="16.83333333326305" width="31.500000000028503"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-28.055555555555557" y="16.83333333326305" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="7.3333333333333" y="16.83333333326305" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="42.7222222222222" y="16.83333333326305" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="78.11111111111111" y="16.83333333326305" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="113.50000000000001" y="16.83333333326305" width="31.500000000028493"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-205" y="-16.533333333403636" width="31.50000000002848" height="29.700000000070307"
+        rx="0" ry="0"></rect>
+      <rect class="cell android" x="-169.6111111111111" y="-16.533333333403636" width="31.50000000002848"
+        height="29.700000000070307" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-134.22222222222223" y="-16.533333333403636" width="31.500000000028507"
+        height="29.700000000070307" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-98.83333333333337" y="-16.533333333403636" width="31.500000000028507"
+        height="29.700000000070307" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-63.44444444444446" y="-16.533333333403636" width="31.500000000028503"
+        height="29.700000000070307" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-28.055555555555557" y="-16.533333333403636" width="31.5000000000285"
+        height="29.700000000070307" rx="0" ry="0"></rect>
+      <rect class="cell android" x="7.3333333333333" y="-16.533333333403636" width="31.5000000000285"
+        height="29.700000000070307" rx="0" ry="0"></rect>
+      <rect class="cell android" x="42.7222222222222" y="-16.533333333403636" width="31.500000000028507"
+        height="29.700000000070307" rx="0" ry="0"></rect>
+      <rect class="cell android" x="78.11111111111111" y="-16.533333333403636" width="31.500000000028507"
+        height="29.700000000070307" rx="0" ry="0"></rect>
+      <rect class="cell android" x="113.50000000000001" y="-16.533333333403636" width="31.500000000028493"
+        height="29.700000000070307" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-205" y="-49.90000000007028" width="31.50000000002848" height="29.700000000070304"
+        rx="0" ry="0"></rect>
+      <rect class="cell android" x="-169.6111111111111" y="-49.90000000007028" width="31.50000000002848"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-134.22222222222223" y="-49.90000000007028" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-98.83333333333337" y="-49.90000000007028" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-63.44444444444446" y="-49.90000000007028" width="31.500000000028503"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-28.055555555555557" y="-49.90000000007028" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="7.3333333333333" y="-49.90000000007028" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="42.7222222222222" y="-49.90000000007028" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="78.11111111111111" y="-49.90000000007028" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="113.50000000000001" y="-49.90000000007028" width="31.500000000028493"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell android" x="-205" y="-83.26666666673695" width="31.50000000002848" height="29.700000000070304"
+        rx="0" ry="0"></rect>
+      <rect class="cell android" x="-169.6111111111111" y="-83.26666666673695" width="31.50000000002848"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-134.22222222222223" y="-83.26666666673695" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-98.83333333333337" y="-83.26666666673695" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-63.44444444444446" y="-83.26666666673695" width="31.500000000028503"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-28.055555555555557" y="-83.26666666673695" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="7.3333333333333" y="-83.26666666673695" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="42.7222222222222" y="-83.26666666673695" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="78.11111111111111" y="-83.26666666673695" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="113.50000000000001" y="-83.26666666673695" width="31.500000000028493"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-205" y="-116.63333333340364" width="31.50000000002848" height="29.700000000070304"
+        rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-169.6111111111111" y="-116.63333333340364" width="31.50000000002848"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-134.22222222222223" y="-116.63333333340364" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-98.83333333333337" y="-116.63333333340364" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-63.44444444444446" y="-116.63333333340364" width="31.500000000028503"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-28.055555555555557" y="-116.63333333340364" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="7.3333333333333" y="-116.63333333340364" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="42.7222222222222" y="-116.63333333340364" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="78.11111111111111" y="-116.63333333340364" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="113.50000000000001" y="-116.63333333340364" width="31.500000000028493"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-205" y="-150.00000000007032" width="31.50000000002848" height="29.700000000070304"
+        rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-169.6111111111111" y="-150.00000000007032" width="31.50000000002848"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-134.22222222222223" y="-150.00000000007032" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-98.83333333333337" y="-150.00000000007032" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-63.44444444444446" y="-150.00000000007032" width="31.500000000028503"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="-28.055555555555557" y="-150.00000000007032" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="7.3333333333333" y="-150.00000000007032" width="31.5000000000285"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="42.7222222222222" y="-150.00000000007032" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell ios" x="78.11111111111111" y="-150.00000000007032" width="31.500000000028507"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+      <rect class="cell other" x="113.50000000000001" y="-150.00000000007032" width="31.500000000028493"
+        height="29.700000000070304" rx="0" ry="0"></rect>
+    </g>
+    <g transform="translate(145,-90)">
+      <g>
+        <g transform="translate(0,-40)">
+          <text class="legend-label" x="25" y="-6.762900407687827">Android</text>
+          <rect class="legend-symbol android" x="8" y="-16" width="12" height="12"></rect>
+        </g>
+        <g transform="translate(0,-20)">
+          <text class="legend-label" x="25" y="-6.762900407687827">iOS</text>
+          <rect class="legend-symbol ios" x="8" y="-16" width="12" height="12"></rect>
+        </g>
+        <g transform="translate(0,0)">
+          <text class="legend-label" x="25" y="-6.762900407687827">Other</text>
+          <rect class="legend-symbol other" x="8" y="-16" width="12" height="12"></rect>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

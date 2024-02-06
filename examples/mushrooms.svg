@@ -1,0 +1,613 @@
+<?xml version="1.0" standalone="no"?>
+<svg x="0" y="0" width="700" height="400" viewBox="0 0 700.000000 400.000000" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" data-reactroot="">
+  <defs>
+    <style>
+      .axis-domain1,
+      .tick-line {
+        stroke: rgb(0, 0, 0);
+        stroke-opacity: 1;
+        stroke-width: 1;
+        stroke-linecap: square;
+        stroke-linejoin: round;
+        fill: none;
+        fill-opacity: 1;
+        opacity: 1
+      }
+
+      .tick-label {
+        stroke: none;
+        stroke-opacity: 1;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: rgb(0, 0, 0);
+        fill-opacity: 1;
+        text-anchor: start;
+        opacity: 1;
+        cursor: pointer;
+        pointer-events: all;
+        font-family: Segoe UI;
+        font-size: 12px
+      }
+
+      .circle {
+        style=stroke: none;
+        stroke-opacity: 1;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill-opacity: 1;
+        text-anchor: start;
+        opacity: 1;
+        cursor: pointer;
+        pointer-events: all
+      }
+
+      .edible {
+        fill: #428aba;
+      }
+
+      .poisonous {
+        fill: #e13d2e
+      }
+
+      .title1 {
+        stroke: none;
+        stroke-opacity: 1;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: rgb(0, 0, 0);
+        fill-opacity: 1;
+        text-anchor: start;
+        opacity: 1;
+        font-family: Segoe UI;
+        font-size: 22px
+      }
+
+      .legend-label {
+        stroke: none;
+        stroke-opacity: 1;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: rgb(0, 0, 0);
+        fill-opacity: 1;
+        text-anchor: start;
+        opacity: 1;
+        font-family: Arial;
+        font-size: 12px
+      }
+
+      .legend-symbol {
+        stroke: none;
+        stroke-opacity: 1;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill-opacity: 1;
+        text-anchor: start;
+        opacity: 1
+      }
+    </style>
+
+    <encoding elements=".circle-group" channel="x" field="Odor" />
+    <encoding elements=".circle-group" channel="y" field="Surface" />
+    <encoding elements=".circle" channel="fill" field="isEdible" />
+
+  </defs>
+  <g class="plot" transform="translate(350.000000,200.000000)">
+    <g>
+      <g>
+        <line class="tick-line" x1="-280" y1="150" x2="240" y2="150" />
+        <line class="tick-line" x1="-280" y1="150" x2="-280" y2="155" />
+        <line class="tick-line" x1="240" y1="150" x2="240" y2="155" />
+      </g>
+      <g>
+        <g transform="translate(-250.75,158)">
+          <text class="tick-label" x="-20.935546875" y="10.396272568433318">Almond</text>
+          <line class="tick-line" y1="-8" y2="-3" />
+        </g>
+        <g transform="translate(-184.82142857,158)">
+          <text class="tick-label" x="-14.40234375" y="10.396272568433318">Anise</text>
+          <line class="tick-line" y1="-8" y2="-3" />
+        </g>
+        <g transform="translate(-118.89285714,158)">
+          <text class="tick-label" x="-23.6865234375" y="10.396272568433318">Creosote</text>
+          <line class="tick-line" y1="-8" y2="-3" />
+        </g>
+        <g transform="translate(-52.96428571,158)">
+          <text class="tick-label" x="-13.2275390625" y="10.396272568433318">Fishy</text>
+          <line class="tick-line" y1="-8" y2="-3" />
+        </g>
+        <g transform="translate(12.96428571,158)">
+          <text class="tick-label" x="-11.2939453125" y="10.396272568433318">Foul</text>
+          <line class="tick-line" y1="-8" y2="-3" />
+        </g>
+        <g transform="translate(78.89285714,158)">
+          <text class="tick-label" x="-14.537109375" y="10.396272568433318">None</text>
+          <line class="tick-line" y1="-8" y2="-3" />
+        </g>
+        <g transform="translate(144.82142857,158)">
+          <text class="tick-label" x="-22.2509765625" y="10.396272568433318">Pungent</text>
+          <line class="tick-line" y1="-8" y2="-3" />
+        </g>
+        <g transform="translate(210.75,158)">
+          <text class="tick-label" x="-13.8427734375" y="10.396272568433318">Spicy</text>
+          <line class="tick-line" y1="-8" y2="-3" />
+        </g>
+      </g>
+    </g>
+    <g>
+      <g>
+        <line class="tick-line" x1="-280" y1="150" x2="-280" y2="-140" />
+        <line class="tick-line" x1="-280" y1="150" x2="-285" y2="150" />
+        <line class="tick-line" x1="-280" y1="-140" x2="-285" y2="-140" />
+      </g>
+      <g>
+        <g transform="translate(-288,-96.5)">
+          <text class="tick-label" x="-38.90625" y="3.929947582993595">Fibrous</text>
+          <line class="tick-line" x1="8" x2="3" />
+        </g>
+        <g transform="translate(-288,5)">
+          <text class="tick-label" x="-26.736328125" y="3.929947582993595">Scaly</text>
+          <line class="tick-line" x1="8" x2="3" />
+        </g>
+        <g transform="translate(-288,106.5)">
+          <text class="tick-label" x="-41.630859375" y="3.929947582993595">Smooth</text>
+          <line class="tick-line" x1="8" x2="3" />
+        </g>
+      </g>
+    </g>
+    <g>
+      <g class="circle-group">
+        <circle class="circle poisonous" cx="-114.26916596828978" cy="-98.51931094438197" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-122.95503530103431" cy="-99.4940090216839" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-119.4562142093826" cy="-91.48447669246218" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle poisonous" cx="15.060426864273147" cy="-96.72449788895989" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="8.66651923780449" cy="-102.6837133216552" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="13.096548053600497" cy="-88.2076030533689" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="17.024304343955656" cy="-105.24139237949858" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="6.702641238082174" cy="-94.16681865903078" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="21.454333590713016" cy="-90.76528228591737" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="10.630396303926283" cy="-111.20061071467343" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="4.738759923126349" cy="-85.64992204497233" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="23.41821346791942" cy="-99.28217739935988" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="0.30873168729843137" cy="-100.12603532529188" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="19.490456841711943" cy="-82.24838520792301" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="18.988184096623375" cy="-113.75829007126376" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-1.6551486726676714" cy="-91.60913819649349" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="29.81212411383567" cy="-93.32296194412375" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="2.2726085708978996" cy="-108.64293177132892" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="11.13266877722277" cy="-79.69070552156414" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="25.38209450717416" cy="-107.79907310709093" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-8.049057494980232" cy="-97.56835686475767" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="27.84824465884397" cy="-84.806064935794" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle edible" cx="94.7945052978059" cy="-97.57650377837608" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="63.76174408685854" cy="-103.06228200449569" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="82.2251555426314" cy="-89.13882908156367" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="81.20258804191643" cy="-104.24304179761855" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="72.48216604521244" cy="-103.65266207061813" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="77.3536636161009" cy="-96.39574591051678" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="76.33109296469064" cy="-111.49995646031172" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="73.50473612921479" cy="-88.54844932077219" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="86.0740827417612" cy="-96.98612504359807" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="68.63324060322354" cy="-95.80536658902714" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="87.09664834889442" cy="-81.8819122144753" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="85.05151299143037" cy="-112.09033777434902" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="64.78431150120808" cy="-87.95806812608383" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="90.94557630980611" cy="-89.72920925144247" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="67.61067172602448" cy="-110.90957871006339" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="78.3762270743669" cy="-81.29153307700246" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="89.92300973040034" cy="-104.83342029832328" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="59.91281588140616" cy="-95.21498469195154" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="95.81707362922305" cy="-82.4722891432071" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="80.18001969536658" cy="-119.34725748367053" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="69.65580374075842" cy="-80.70115072689669" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="103.5149295751704" cy="-98.16688426583588" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="58.89024803375891" cy="-110.3192017441553" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="83.24772073967684" cy="-74.03461235260495" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="93.77193912883371" cy="-112.68072039362536" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="56.06388472922969" cy="-87.36768823341968" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="99.6660020890973" cy="-90.31958526947972" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="71.45959571061871" cy="-118.75687838354486" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="74.52729714993514" cy="-73.44423094087531" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="98.64343519207674" cy="-105.42380206286853" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="55.04131939601372" cy="-102.47190249500088" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="91.96814453257441" cy="-74.62499231277818" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="88.90044288621138" cy="-119.93763792895908" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="60.935380340603615" cy="-80.1107682481505" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle edible" cx="-249.104377321433" cy="5.3501440355920655" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-255.59816807113458" cy="-0.5000723326373535" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-250.92391819621918" cy="13.899039282625107" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-247.28483600347474" cy="-3.198751118096766" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-257.4177092836945" cy="8.048821783938003" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-242.6105869302288" cy="11.200361098074696" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-253.7786264229202" cy="-9.048967661209582" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-259.237250236414" cy="16.597718080280075" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-240.79104560810632" cy="2.6514648803560865" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle edible" cx="-181.870276587367" cy="5.67428722219698" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-188.2755883929672" cy="-0.2726714364110796" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-183.8178378057139" cy="14.194929634004874" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-179.92271447203578" cy="-2.8463556420018943" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-190.22314965720452" cy="8.247969775279921" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-175.4649640654234" cy="11.62124634204276" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-186.32802746825533" cy="-8.793314170897842" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-192.17071249730301" cy="16.76861235020596" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-173.51740219767467" cy="3.1006031776140377" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-196.6284626738598" cy="2.3010114560702917" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle poisonous" cx="-52.96440559836268" cy="4.999374094055604" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-60.74177371254473" cy="1.0110295555686828" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-52.52972860169958" cy="13.728945024367786" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-45.62171319074923" cy="0.25814762213147624" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-60.30709717099555" cy="9.740600379895817" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-45.187036673649885" cy="8.987718682767373" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-53.39908189183379" cy="-3.7301968529909164" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle poisonous" cx="16.38983080637586" cy="5.013032384187417" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="9.47329103900229" cy="-0.33072679450824793" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="15.220267712244308" cy="13.67480947145482" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="17.559391373066163" cy="-3.648744470365722" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="8.303729760385895" cy="8.331049271929658" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="23.306369527842676" cy="10.356792466973978" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="10.642851600515122" cy="-8.992506736054986" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="7.134164757978001" cy="16.99283018328736" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="24.475932647878203" cy="1.6950144925277533" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="1.3871867074214936" cy="2.9872901549672926" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="22.136807801605144" cy="19.018570724183277" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="18.72895434208991" cy="-12.310527977010192" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="0.21762362125227064" cy="11.64906965432019" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="31.39247654046718" cy="7.038774447824567" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="2.5567483810915252" cy="-5.67448947780955" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="5.964600661733698" cy="25.654614042899475" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="25.645496837095507" cy="-6.9667666356517" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-6.698920073890022" cy="6.305308217875372" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="24.32207025704205" cy="27.481370796686292" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="11.812414109406602" cy="-17.654290751423517" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-0.9519412214968117" cy="20.31085266181134" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="32.56204024524986" cy="-1.6230068007003347" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-5.529357347739197" cy="-2.3564736572834084" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="14.050705468592453" cy="22.33659340175536" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="26.81506007074503" cy="-15.628548772703667" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-7.868483410529983" cy="14.967089819809559" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="30.222913418037656" cy="15.700556173002758" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="3.7263083908043235" cy="-14.336271542343752" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle edible" cx="83.30706490053402" cy="6.804763618771711" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="75.92683634288302" cy="2.1221890874476697" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="75.56172218243995" cy="10.8549399374639" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="83.6721771919019" cy="-1.927989305751125" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="68.18149078893039" cy="6.172366642144035" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="90.68729319184604" cy="11.487338497504552" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="76.29194876148406" cy="-6.610566081577325" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="67.8163761534384" cy="14.905120691069495" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="91.05240739925182" cy="2.754584486970969" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="68.54660434598895" cy="-2.5603871272039376" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="82.9419497426579" cy="15.537517335579928" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="84.03729172391256" cy="-10.66074743505223" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="60.071029077804404" cy="18.95530262813307" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="98.43264089350065" cy="7.437159563631166" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="68.91171622832138" cy="-11.293144613315821" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="75.19660494538645" cy="19.587698374072513" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="91.41752368820434" cy="-5.978171423272636" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="60.80125618399869" cy="1.4897906519696398" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="90.32218021034278" cy="20.22009643862511" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="76.65706191258168" cy="-15.343325054424973" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="67.45125960516756" cy="23.6378799647889" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="98.79775647414212" cy="-1.2955963845632876" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="61.16637040247943" cy="-7.242965300026805" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="82.57683457624096" cy="24.270277274153987" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="91.7826388578988" cy="-14.710928043404614" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="60.436142668022796" cy="10.222546901941755" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="98.0675258750603" cy="16.16991569090417" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle poisonous" cx="149.44511974599592" cy="2.9806890556180416" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="140.75925041325138" cy="2.0059909783161207" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="144.25807150490309" cy="10.015523307537837" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle poisonous" cx="210.75" cy="5.000000000000014" r="4.370193722368317" />
+      </g>
+      <g class="circle-group">
+        <circle class="circle edible" cx="-246.5211847442444" cy="108.09468248876958" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-254.97815386333644" cy="104.90435421704177" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-253.39028313094886" cy="113.49929575361782" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-248.10905586055284" cy="99.49974080736226" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle edible" cx="-183.41748483172069" cy="106.11121134128422" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-189.6513470312922" cy="99.98476647439368" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-185.6062106553743" cy="114.57311583380584" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-181.2287591587362" cy="97.64930669601782" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-191.84007250699398" cy="108.44667136550665" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="-177.1836234273231" cy="112.23765434346686" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle poisonous" cx="-118.89285714285714" cy="106.5" r="4.370193722368317" />
+      </g>
+      <g class="circle-group">
+        <circle class="circle poisonous" cx="-50.013133730224126" cy="107.17428722219697" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-56.41844553582434" cy="101.22732856358891" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-51.96069494857103" cy="115.69492963400486" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-48.065571614892924" cy="98.65364435799809" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-58.36600680006165" cy="109.74796977527991" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-43.607821208280534" cy="113.12124634204274" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-54.47088461111246" cy="92.70668582910214" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-60.31356964016015" cy="118.26861235020594" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-41.66025934053182" cy="104.60060317761402" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="-64.77131981671693" cy="103.80101145607028" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle poisonous" cx="17.158207045100824" cy="106.68999003091034" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="11.140693939920927" cy="100.35091638932231" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="14.677162354279012" cy="115.07084640780748" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="19.639250348589876" cy="98.30913355232619" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="8.65964980193719" cy="108.73177193647251" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="23.175719555642274" cy="113.02906553695415" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="5.123179487680825" cy="94.01184018320494" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="6.178605181888258" cy="117.11262986484061" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="25.656763915935457" cy="104.64820842282062" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="2.642134806631022" cy="102.39269689456202" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="20.694674083336135" cy="121.40992238536242" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="13.6217369213508" cy="91.97005856929233" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="0.1610908994641953" cy="110.7735547441467" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle edible" cx="80.02801148036143" cy="105.9795398515117" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="72.899501847635" cy="100.92200226588712" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="79.21230983045763" cy="114.68177903418106" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="80.84371186695252" cy="97.27730078392227" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="72.08380159788503" cy="109.62424051362936" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="87.1565202060781" cy="111.0370783078124" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="73.71520255263329" cy="92.2197624377281" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="71.26809902112689" cy="118.32648142778208" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="87.97222162753899" cy="102.33483860331705" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="64.95529005387715" cy="104.56670250135113" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="86.34081934387483" cy="119.73931775314593" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="88.7879242219041" cy="93.63259875342884" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="64.13958878902889" cy="113.26894293762729" r="4.370193722368317">
+        </circle>
+        <circle class="circle edible" cx="95.10073238728359" cy="107.3923758994322" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle poisonous" cx="149.05024382718415" cy="108.09468248876958" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="140.5932747080921" cy="104.90435421704177" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="142.1811454404797" cy="113.49929575361782" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="147.4623727108757" cy="99.49974080736226" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="circle-group">
+        <circle class="circle poisonous" cx="210.74988011592305" cy="106.49937409405558" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="202.972512001741" cy="102.51102955556867" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="211.18455711258613" cy="115.22894502436777" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="218.0925725235365" cy="101.75814762213146" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="203.40718854329018" cy="111.2406003798958" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="218.52724904063584" cy="110.48771868276737" r="4.370193722368317">
+        </circle>
+        <circle class="circle poisonous" cx="210.31520382245193" cy="97.76980314700907" r="4.370193722368317">
+        </circle>
+      </g>
+    </g>
+    <text class="title1" x="-133.287109375" y="-160.5548048922539">UCI Mushroom Dataset</text>
+    <g transform="translate(240,-96)">
+      <g>
+        <g transform="translate(0,-22)">
+          <text class="legend-label" x="27" y="-7.070052417006405">Edible</text>
+          <circle class="legend-symbol edible" cx="11" cy="-11" r="7.333333333333333"></circle>
+        </g>
+        <g>
+          <text class="legend-label" x="27" y="-7.070052417006405">Poisonous</text>
+          <circle class="legend-symbol poisonous" cx="11" cy="-11" r="7.333333333333333"></circle>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

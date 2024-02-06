@@ -1,0 +1,442 @@
+<?xml version="1.0" standalone="no"?>
+<svg x="0" y="0" width="537.1579525235704" height="600" viewBox="0 0 537.157953 600.000000"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" data-reactroot="">
+  <defs>
+    <style>
+      .x-axis-domain,
+      .x-axis-tick-line {
+        stroke: rgb(0, 0, 0);
+        stroke-opacity: 1;
+        stroke-width: 1;
+        stroke-linecap: square;
+        stroke-linejoin: round;
+        fill: none;
+        fill-opacity: 1;
+        text-anchor: start;
+        opacity: 1;
+      }
+
+      .school-label,
+      .x-axis-tick-label,
+      .legend-label {
+        stroke: none;
+        stroke-opacity: 1;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: rgb(0, 0, 0);
+        fill-opacity: 1;
+        text-anchor: start;
+        opacity: 1;
+        font-family: Segoe UI;
+        font-size: 12px;
+      }
+
+      .line {
+        stroke: rgb(0, 0, 0);
+        stroke-opacity: 1;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+        fill-opacity: 1;
+        text-anchor: start;
+        opacity: 1;
+        stroke-dasharray: ;
+        cursor: pointer;
+        pointer-events: all;
+      }
+
+      .symbol-women,
+      .symbol-men {
+        stroke: none;
+        stroke-opacity: 1;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill-opacity: 1;
+        text-anchor: start;
+        opacity: 1;
+        cursor: pointer;
+        pointer-events: all;
+      }
+
+      .category-woman {
+        fill: rgb(127, 201, 127);
+      }
+
+      .category-man {
+        fill: rgb(190, 174, 212)
+      }
+
+      .title {
+        stroke: none;
+        stroke-opacity: 1;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: rgb(0, 0, 0);
+        fill-opacity: 1;
+        text-anchor: start;
+        opacity: 1;
+        font-family: Segoe UI;
+        font-size: 24px;
+      }
+
+      .legend-symbol {
+        stroke: none;
+        stroke-opacity: 1;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill-opacity: 1;
+        text-anchor: start;
+        opacity: 1;
+      }
+    </style>
+
+    <encoding elements=".symbol-men" channel="x" field="man" />
+    <encoding elements=".symbol-women" channel="x" field="woman" />
+    <encoding elements=".school-label" channel="innerText" field="school" />
+    <encoding elements=".glyph" channel="y" field="school" />
+
+  </defs>
+
+  <g>
+    <text class="title" x="183.02323466" y="51.254979615608626">schoolearnings</text>
+    <g class="x-axis" type="linear" orientation="x" transform="translate(88.07601707,550)">
+      <g>
+        <line class="x-axis-domain" x1="0" y1="0" x2="349.08193491381024" y2="0"></line>
+        <line class="x-axis-domain" x1="0" y1="0" x2="0" y2="5"></line>
+        <line class="x-axis-domain" x1="349.08193491381024" y1="0" x2="349.08193491381024" y2="5"></line>
+      </g>
+      <g>
+        <g transform="translate(0,8)">
+          <text class="x-axis-tick-label" x="-6.46875" y="10.396272568433318">60</text>
+          <line class="x-axis-tick-line" y1="-8" y2="-3"></line>
+        </g>
+        <g transform="translate(31.73472136,8)">
+          <text class="x-axis-tick-label" x="-6.46875" y="10.396272568433318">70</text>
+          <line class="x-axis-tick-line" y1="-8" y2="-3"></line>
+        </g>
+        <g transform="translate(63.46944271,8)">
+          <text class="x-axis-tick-label" x="-6.46875" y="10.396272568433318">80</text>
+          <line class="x-axis-tick-line" y1="-8" y2="-3"></line>
+        </g>
+        <g transform="translate(95.20416407,8)">
+          <text class="x-axis-tick-label" x="-6.46875" y="10.396272568433318">90</text>
+          <line class="x-axis-tick-line" y1="-8" y2="-3"></line>
+        </g>
+        <g transform="translate(126.93888542,8)">
+          <text class="x-axis-tick-label" x="-9.703125" y="10.396272568433318">100</text>
+          <line class="x-axis-tick-line" y1="-8" y2="-3"></line>
+        </g>
+        <g transform="translate(158.67360678,8)">
+          <text class="x-axis-tick-label" x="-9.703125" y="10.396272568433318">110</text>
+          <line class="x-axis-tick-line" y1="-8" y2="-3"></line>
+        </g>
+        <g transform="translate(190.40832813,8)">
+          <text class="x-axis-tick-label" x="-9.703125" y="10.396272568433318">120</text>
+          <line class="x-axis-tick-line" y1="-8" y2="-3"></line>
+        </g>
+        <g transform="translate(222.14304949,8)">
+          <text class="x-axis-tick-label" x="-9.703125" y="10.396272568433318">130</text>
+          <line class="x-axis-tick-line" y1="-8" y2="-3"></line>
+        </g>
+        <g transform="translate(253.87777085,8)">
+          <text class="x-axis-tick-label" x="-9.703125" y="10.396272568433318">140</text>
+          <line class="x-axis-tick-line" y1="-8" y2="-3"></line>
+        </g>
+        <g transform="translate(285.6124922,8)">
+          <text class="x-axis-tick-label" x="-9.703125" y="10.396272568433318">150</text>
+          <line class="x-axis-tick-line" y1="-8" y2="-3"></line>
+        </g>
+        <g transform="translate(317.34721356,8)">
+          <text class="x-axis-tick-label" x="-9.703125" y="10.396272568433318">160</text>
+          <line class="x-axis-tick-line" y1="-8" y2="-3"></line>
+        </g>
+        <g transform="translate(349.08193491,8)">
+          <text class="x-axis-tick-label" x="-9.703125" y="10.396272568433318">170</text>
+          <line class="x-axis-tick-line" y1="-8" y2="-3"></line>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(268.578976,300.000000)">
+      <g class="glyph">
+        <g transform="translate(-180.50295893,239.92857143)">
+          <text class="school-label" x="-27.627491880478622" y="3.929947582993595">MIT</text>
+        </g>
+        <line class="line" x1="-72.6049063242768" y1="239.92857142857142" x2="111.45647753936859"
+          y2="239.92857142857142"></line>
+        <circle class="symbol-women category-woman" cx="-72.6049063242768" cy="239.92857142857142"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="111.45647753936859" cy="239.92857142857142" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-66.2579620531166" y1="217.43571428571428" x2="108.2830054037885"
+          y2="217.43571428571428"></line>
+        <g transform="translate(-180.50295893,217.43571429)">
+          <text class="school-label" x="-52.34819500547862" y="3.929947582993595">Stanford</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-66.2579620531166" cy="217.43571428571428"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="108.2830054037885" cy="217.43571428571428" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-15.482407883835132" y1="194.94285714285715" x2="152.7116153019098"
+          y2="194.94285714285715">
+        </line>
+        <g transform="translate(-180.50295893,194.94285714)">
+          <text class="school-label" x="-49.26030438047862" y="3.929947582993595">Harvard</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-15.482407883835132" cy="194.94285714285715"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="152.7116153019098" cy="194.94285714285715" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-78.95185059543698" y1="172.45" x2="76.54828404798755" y2="172.45" />
+        <g transform="translate(-180.50295893,172.45)">
+          <text class="school-label" x="-44.35014813047862" y="3.929947582993595">U.Penn</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-78.95185059543698" cy="172.45" r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="76.54828404798755" cy="172.45" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-85.29879486659716" y1="149.95714285714286" x2="63.854395505667185"
+          y2="149.95714285714286">
+        </line>
+        <g transform="translate(-180.50295893,149.95714286)">
+          <text class="school-label" x="-57.66850750547862" y="3.929947582993595">Princeton</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-85.29879486659716" cy="149.95714285714286"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="63.854395505667185" cy="149.95714285714286" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-123.38046049355827" y1="127.46428571428572" x2="3.558424929645419"
+          y2="127.46428571428572">
+        </line>
+        <g transform="translate(-180.50295893,127.46428571)">
+          <text class="school-label" x="-50.24467938047862" y="3.929947582993595">Chicago</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-123.38046049355827" cy="127.46428571428572"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="3.558424929645419" cy="127.46428571428572" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-72.60490632427678" y1="104.97142857142859" x2="44.81356269218666"
+          y2="104.97142857142859" />
+        <g transform="translate(-180.50295893,104.97142857)">
+          <text class="school-label" x="-72.98491375547863" y="3.929947582993595">Georgetown</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-72.60490632427678" cy="104.97142857142859"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="44.81356269218666" cy="104.97142857142859" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-129.72740476471841" y1="82.47857142857146" x2="-15.48240788383513"
+          y2="82.47857142857146" />
+        <g transform="translate(-180.50295893,82.47857143)">
+          <text class="school-label" x="-33.36382000547862" y="3.929947582993595">Tufts</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-129.72740476471841" cy="82.47857142857146"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="-15.48240788383513" cy="82.47857142857146" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-120.20698835797819" y1="59.985714285714295" x2="-9.135463612674926"
+          y2="59.985714285714295">
+        </line>
+        <g transform="translate(-180.50295893,59.98571429)">
+          <text class="school-label" x="-28.236866880478622" y="3.929947582993595">Yale</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-120.20698835797819" cy="59.985714285714295"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="-9.135463612674926" cy="59.985714285714295" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-97.99268340891753" y1="37.49285714285716" x2="6.731897065225532"
+          y2="37.49285714285716" />
+        <g transform="translate(-180.50295893,37.49285714)">
+          <text class="school-label" x="-57.93217938047862" y="3.929947582993595">Columbia</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-97.99268340891753" cy="37.49285714285716"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="6.731897065225532" cy="37.49285714285716" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-75.77837845985687" y1="15.000000000000028" x2="22.59925774312598"
+          y2="15.000000000000028" />
+        <g transform="translate(-180.50295893,15)">
+          <text class="school-label" x="-34.81694500547862" y="3.929947582993595">Duke</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-75.77837845985687" cy="15.000000000000028"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="22.59925774312598" cy="15.000000000000028" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-104.33962768007774" y1="-7.492857142857105" x2="-9.135463612674926"
+          y2="-7.492857142857105">
+        </line>
+        <g transform="translate(-180.50295893,-7.49285714)">
+          <text class="school-label" x="-65.14507000547863" y="3.929947582993595">Dartmouth</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-104.33962768007774" cy="-7.492857142857105"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="-9.135463612674926" cy="-7.492857142857105" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-158.2886539849393" y1="-29.985714285714266" x2="-72.60490632427678"
+          y2="-29.985714285714266">
+        </line>
+        <g transform="translate(-180.50295893,-29.98571429)">
+          <text class="school-label" x="-31.225148130478622" y="3.929947582993595">NYU</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-158.2886539849393" cy="-29.985714285714266"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="-72.60490632427678" cy="-29.985714285714266" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-139.24782117145872" y1="-52.47857142857137" x2="-53.56407351079622"
+          y2="-52.47857142857137">
+        </line>
+        <g transform="translate(-180.50295893,-52.47857143)">
+          <text class="school-label" x="-72.31108563047863" y="3.929947582993595">Notre Dame</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-139.24782117145872" cy="-52.47857142857137"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="-53.56407351079622" cy="-52.47857142857137" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-117.03351622239806" y1="-74.97142857142853" x2="-31.34976856173559"
+          y2="-74.97142857142853">
+        </line>
+        <g transform="translate(-180.50295893,-74.97142857)">
+          <text class="school-label" x="-44.88335125547862" y="3.929947582993595">Cornell</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-117.03351622239806" cy="-74.97142857142853"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="-31.34976856173559" cy="-74.97142857142853" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-174.15601466283974" y1="-97.4642857142857" x2="-104.33962768007773"
+          y2="-97.4642857142857">
+        </line>
+        <g transform="translate(-180.50295893,-97.46428571)">
+          <text class="school-label" x="-56.25639813047862" y="3.929947582993595">Michigan</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-174.15601466283974" cy="-97.4642857142857"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="-104.33962768007773" cy="-97.4642857142857" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-142.4212933070388" y1="-119.9571428571428" x2="-78.95185059543698"
+          y2="-119.9571428571428">
+        </line>
+        <g transform="translate(-180.50295893,-119.95714286)">
+          <text class="school-label" x="-40.91655438047862" y="3.929947582993595">Brown</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-142.4212933070388" cy="-119.9571428571428"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="-78.95185059543698" cy="-119.9571428571428" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-145.59476544261895" y1="-142.44999999999996" x2="-91.64573913775736"
+          y2="-142.44999999999996">
+        </line>
+        <g transform="translate(-180.50295893,-142.45)">
+          <text class="school-label" x="-51.92632000547862" y="3.929947582993595">Berkeley</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-145.59476544261895" cy="-142.44999999999996"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="-91.64573913775736" cy="-142.44999999999996" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-155.11518184935917" y1="-164.94285714285712" x2="-110.68657195123791"
+          y2="-164.94285714285712">
+        </line>
+        <g transform="translate(-180.50295893,-164.94285714)">
+          <text class="school-label" x="-40.78764813047862" y="3.929947582993595">Emory</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-155.11518184935917" cy="-164.94285714285712"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="-110.68657195123791" cy="-164.94285714285712" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-167.8090703916795" y1="-187.43571428571423" x2="-123.38046049355825"
+          y2="-187.43571428571423">
+        </line>
+        <g transform="translate(-180.50295893,-187.43571429)">
+          <text class="school-label" x="-36.78569500547862" y="3.929947582993595">UCLA</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-167.8090703916795" cy="-187.43571428571423"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="-123.38046049355825" cy="-187.43571428571423" r="4.370193722368317">
+        </circle>
+      </g>
+      <g class="glyph">
+        <line class="line" x1="-142.4212933070388" y1="-209.9285714285714" x2="-113.860044086818"
+          y2="-209.9285714285714" />
+        <g transform="translate(-180.50295893,-209.92857143)">
+          <text class="school-label" x="-37.21928875547862" y="3.929947582993595">SoCal</text>
+        </g>
+        <circle class="symbol-women category-woman" cx="-142.4212933070388" cy="-209.9285714285714"
+          r="4.370193722368317">
+        </circle>
+        <circle class="symbol-men category-man" cx="-113.860044086818" cy="-209.9285714285714" r="4.370193722368317">
+        </circle>
+      </g>
+    </g>
+    <g class="legend" transform="translate(437.15795226,124)">
+      <g transform="translate(0,-22)">
+        <text class="legend-label" x="27" y="-7.070052417006405">Women</text>
+        <circle class="legend-symbol category-woman" cx="11" cy="-11" r="7.333333333333333">
+        </circle>
+      </g>
+      <g>
+        <text class="legend-label" x="27" y="-7.070052417006405">Men</text>
+        <circle class="legend-symbol category-man" cx="11" cy="-11" r="7.333333333333333">
+        </circle>
+      </g>
+    </g>
+  </g>
+</svg>
